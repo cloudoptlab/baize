@@ -6,6 +6,8 @@
 
 > The Baí Zé was encountered by the Yellow Emperor or Huáng Dì while he was on patrol in the east. Thereafter the creature dictated to Huáng Dì a guide to the forms and habits of all 11,520 types of supernatural creatures in the world, and how to overcome their hauntings and attacks. The emperor had this information written down in a book called the Bái Zé Tú (白泽图/白澤圖). This book no longer exists, but many fragments of it survive in other texts.
 
+[中文版](https://github.com/cloudoptlab/baize/blob/master/README_ZH.md)
+
 # Introduce
 
 Baize is the first machine-based privacy engine in China that runs directly on the browser, blocking tracking scripts and malicious ad scripts. Developed in JavaScript, it can run in Node.js, browser environment.
@@ -28,16 +30,16 @@ In most cases, it only takes 0.1 ms to predict whether a network request is secu
 
 We have selected the following eight features for training and prediction. Shirazawa can automatically convert a url to an array of features in most cases.
 
-name |
-- |
-domain |
-third-party |
-type |
-root-domain |
-path-length |
-query-count |
-adwords |
-sub-domain |
+name | describe
+-|-
+domain | Domain name
+third-party | Is it a third party request?
+type | Type of request
+root-domain | Root domain
+path-length | Request path length
+query-count | Number of request parameters
+adwords | Conformity with the general rule?
+sub-domain | Is it a sub-domain?
 
 # Model selection
 
