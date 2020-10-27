@@ -1,0 +1,7 @@
+/dist/
+/dev/
+/node_modules/
+yarn.lock
+.idea/
+/model/
+.cache/
