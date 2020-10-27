@@ -115,7 +115,7 @@ baize.predict(data);
 
 Baize is under the Apache License 2.0 and is free to use for commercial purposes, please include a link to Baize and the license agreement in the product description.
 
-# 引用
+# Quote
 
 If you are using Baize in your research, please cite it in the following format:
 
