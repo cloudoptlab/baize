@@ -10,7 +10,7 @@
 
 # Introduce
 
-Baize is the first machine-based privacy engine in China that runs directly on the browser, blocking tracking scripts and malicious ad scripts. Developed in JavaScript, it can run in Node.js, browser environment.
+Baize is the machine learning based privacy engine that runs directly on the browser, blocking tracking scripts and malicious ad scripts. Developed in JavaScript, it can run in Node.js, browser environment.
 
 Traditional filtering is done using filter rules, but these are based on manual updates from open source organizations, public service organizations, or individuals and are labor-intensive to maintain. We propose an automatic and effective machine learning approach based on integration learning, mimicking the heuristic engine of antivirus software. The multidimensional features of scripts are used to learn and create classifiers to block tracking scripts and malicious ad scripts.
 
